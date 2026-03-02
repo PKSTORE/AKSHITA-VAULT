@@ -335,11 +335,11 @@
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-          <li><a href="services.html">Cleaning Laptops / Replacing Thermal Paste</a></li>
-          <li><a href="services.html">Data Recovery</a></li>
-          <li><a href="services.html">OS Installation</a></li>
-          <li><a href="services.html">Assembling a Personal Computer at Home</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
         </ul>
       </div>
 
