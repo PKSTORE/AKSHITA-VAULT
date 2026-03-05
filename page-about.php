@@ -134,5 +134,10 @@ Template Name: About Page
         <div class="footer-bottom">
             © 2026 RR COMPUTERS.
         </div>
-     
+       <!-- script 1 -->
+    <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
+  </script>
         <?php get_footer(); ?>
