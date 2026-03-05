@@ -124,7 +124,7 @@
     <div class="hero-3-slider-wrapper">
       <div class="hero-3-slider" id="hero3Slider">
         <!-- Card 1 -->
-        <a href="services.html">
+   <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
             <img src="img/SERVICE 1.png" alt="Spare Parts & Peripherals">
             <h3>Spare Parts & Peripherals</h3>
@@ -136,7 +136,7 @@
           </div>
         </a>
         <!-- Card 2 -->
-        <a href="services.html">
+     <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
             <img src="img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
             <h3>Laptop & Desktop Rental</h3>
