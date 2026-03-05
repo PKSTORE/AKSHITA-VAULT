@@ -4,7 +4,7 @@
 
       <!-- Logo -->
       <div class="logo">
-        <a href="index.html">
+      <a href="<?php echo site_url('/'); ?>">
   <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
         </a>
 
