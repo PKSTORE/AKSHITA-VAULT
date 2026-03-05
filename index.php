@@ -126,7 +126,7 @@
         <!-- Card 1 -->
    <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 1.png" alt="Spare Parts & Peripherals">
+            <img src="<?php echo get_template_directory_uri();  ?>/img/service-1.png" alt="Spare Parts & Peripherals">
             <h3>Spare Parts & Peripherals</h3>
             <p>
               High-quality computer spare parts and peripherals including RAM, hard drives, SSDs, keyboards, monitors,
@@ -138,7 +138,7 @@
         <!-- Card 2 -->
      <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
+            <img src="<?php echo get_template_directory_uri();  ?>/img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
             <h3>Laptop & Desktop Rental</h3>
             <p>
               Affordable laptop and desktop rental services for offices, events, training, and short- or long-term
@@ -151,7 +151,7 @@
         <!-- Card 3 -->
     <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 3.png" alt="Laptop & Desktop Repair">
+            <img src="<?php echo get_template_directory_uri();  ?>/img/SERVICE 3.png" alt="Laptop & Desktop Repair">
             <h3>Laptop & Desktop Repair</h3>
             <p>
               Professional repair services for laptops and desktops, covering hardware issues, software problems, and
@@ -163,7 +163,7 @@
         <!-- Card 4 -->
      <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 4.1.png" alt="Laptop & Desktop Sales">
+            <img src="<?php echo get_template_directory_uri();  ?>/img/SERVICE 4.1.png" alt="Laptop & Desktop Sales">
             <h3>Laptop & Desktop Sales</h3>
             <p>
               New and refurbished laptops and desktops available at competitive prices, tested for performance and
@@ -175,7 +175,7 @@
         <!-- Card 5 -->
       <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/service_7_400x250_HD.png" alt="CCTV Installation">
+            <img src="<?php echo get_template_directory_uri();  ?>/img/service_7_400x250_HD.png" alt="CCTV Installation">
             <h3>CCTV Installation</h3>
             <p>
               Professional CCTV installation services for homes, offices, and commercial spaces with reliable
