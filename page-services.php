@@ -142,9 +142,9 @@
         </p>
 
         <div class="footer-social">
-          <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
-          <a href="#" aria-label="Twitter"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-          <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
+          <a href="#"  aria-label="Facebook" target = "_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt=""></a>
+          <a href="#" aria-label="Twitter" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt=""></a>
         </div>
       </div>
 
