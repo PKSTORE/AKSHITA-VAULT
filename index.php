@@ -282,7 +282,7 @@
         </form>
         <!-- Checkbox inline with text -->
         <label class="hero-5-checkbox">
-          <input type="checkbox" required>
+       <input type="checkbox" id="agreeTerms">
           <span>
             I agree to the
             <a href="#">Privacy Policy</a>

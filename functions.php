@@ -8,6 +8,7 @@ function mycustomtheme_enqueue_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'mycustomtheme_enqueue_styles');
+/* Enquiry Form */
 function rr_create_enquiry_post_type(){
 
 register_post_type('rr_enquiry', array(
@@ -95,3 +96,55 @@ echo $content;
 }
 
 add_action('manage_rr_enquiry_posts_custom_column','rr_enquiry_column_data',10,2);
+/* Complain For */
+function rr_create_complaint_post_type(){
+
+register_post_type('rr_complaint', array(
+'labels' => array(
+'name' => 'Complaints',
+'singular_name' => 'Complaint'
+),
+'public' => false,
+'show_ui' => true,
+'menu_icon' => 'dashicons-warning',
+'supports' => array('title','editor')
+));
+
+}
+
+add_action('init','rr_create_complaint_post_type');
+function rr_save_complaint_data(){
+
+if(isset($_POST['submit_complaint'])){
+
+$name = sanitize_text_field($_POST['complaint_name']);
+$phone = sanitize_text_field($_POST['complaint_phone']);
+$message = sanitize_textarea_field($_POST['complaint_message']);
+
+/* Save complaint in WordPress */
+
+wp_insert_post(array(
+'post_title' => $name,
+'post_content' => "Phone: ".$phone."\n\nComplaint: ".$message,
+'post_type' => 'rr_complaint',
+'post_status' => 'publish'
+));
+
+/* Send email notification */
+
+$admin_email = get_option('admin_email');
+
+$subject = "New Complaint Received";
+
+$email_message = "A new complaint has been submitted.\n\n";
+$email_message .= "Name: ".$name."\n";
+$email_message .= "Phone: ".$phone."\n";
+$email_message .= "Complaint: ".$message."\n";
+
+wp_mail($admin_email, $subject, $email_message);
+
+}
+
+}
+
+add_action('init','rr_save_complaint_data');
