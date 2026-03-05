@@ -8,7 +8,7 @@
          <a href="<?php echo site_url('/'); ?>">
    <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
         </a>
- <div class="hero" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/background.png');">
+ 
       </div>
 
       <!-- Hamburger -->
