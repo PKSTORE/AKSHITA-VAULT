@@ -48,7 +48,7 @@
         homes and businesses with fast and trusted solutions.
       </p>
 
-      <a href="services.html" class="hero-btn">View All Services</a>
+      <a href="<?php echo site_url('/services'); ?>" class="hero-btn">View All Services</a>
     </div>
 
 
