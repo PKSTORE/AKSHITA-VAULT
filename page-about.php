@@ -50,7 +50,7 @@ Template Name: About Page
                     complete laptop and desktop services under one roof.
                 </p>
                 <p>
-                    We offer a wide range of<a href="<?php echo site_url('/services'); ?>">Services</a>including laptop and desktop repair,
+                    We offer a wide range of <a href="<?php echo site_url('/services'); ?>">Services</a> including laptop and desktop repair,
                     computer sales and rentals,
                     hardware upgrades, networking solutions, CCTV installation, firewall security, data recovery, and
                     refurbished systems. Our goal is to ensure smooth, secure, and efficient performance of your systems
