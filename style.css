@@ -486,7 +486,14 @@ margin-top: -100px;
   font-size: 15px;
   outline: none;
 }
-
+.hero-5-input textarea{
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  outline: none;
+}
 .hero-5-form button {
   width: 100%;
   padding: 14px;

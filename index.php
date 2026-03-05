@@ -275,7 +275,7 @@
             <input type="tel" placeholder="Your phone" required id="yourphone">
             <small class="error"></small>
           </div>
-          <div class="input-box">
+          <div class="hero-5-input">
             <textarea name="complaint_message" placeholder="Describe your complaint" required></textarea>
           </div> 
           <button type="submit">Complain Ticket</button>
