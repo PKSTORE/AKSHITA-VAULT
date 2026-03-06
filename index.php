@@ -265,14 +265,14 @@
           Enter your contact details to schedule a Meeting.
         </p>
 
-        <form class="hero-5-form" id="sing_up">
+        <form class="hero-5-form" id="sing_up" method="post">
           <div class="hero-5-input">
-            <input type="text" name="complaint_name" placeholder="Your name" required id="yourname">
+            <input type="text" name="complaint_name" placeholder="Your name" required>
             <small class="error"></small>
           </div>
 
           <div class="hero-5-input">
-            <input type="tel" name="complaint_phone" placeholder="Your phone" required id="yourphone">
+            <input type="tel" name="complaint_phone" placeholder="Your phone" required>
             <small class="error"></small>
           </div>
           <div class="hero-5-input">
