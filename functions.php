@@ -111,10 +111,6 @@ register_post_type('rr_complaint', array(
 ));
 
 }
-
-add_action('init','rr_create_complaint_post_type');
-function rr_save_complaint_data(){
-
 if(isset($_POST['submit_complaint'])){
 
 $name = sanitize_text_field($_POST['complaint_name']);
@@ -145,10 +141,11 @@ wp_mail($admin_email, $subject, $email_message);
 
 }
 
-}
+add_action('init','rr_create_complaint_post_type');
 
-add_action('init','rr_save_complaint_data');
+
 /* contact Backend */
+
 function rr_save_contact_data(){
 
 if(isset($_POST['submit_contact'])){
@@ -182,19 +179,3 @@ wp_mail($admin_email,$subject,$body);
 }
 
 add_action('init','rr_save_contact_data');
-function rr_create_contact_post_type(){
-
-register_post_type('rr_contact', array(
-'labels' => array(
-'name' => 'Contact Messages',
-'singular_name' => 'Contact Message'
-),
-'public' => false,
-'show_ui' => true,
-'menu_icon' => 'dashicons-email',
-'supports' => array('title','editor')
-));
-
-}
-
-add_action('init','rr_create_contact_post_type');
