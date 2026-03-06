@@ -300,8 +300,12 @@
         G-9/ 85 RATIYA MARG SANGAM VIHAR <br>
         NEW DELHI
       </p>
- <p class="footer-email">
-Email: <a href="mailto:sharmapiyush1342@gmail.com">info@rrcomputers.net</a>
+       <p class="footer-email">
+      Email:
+      <?php
+       $email = "info@rrcomputers.net";
+       echo '<a href="mailto:'.$email.'?subject=Support Request">'.$email.'</a>';
+      ?>
 </p>
      
 
