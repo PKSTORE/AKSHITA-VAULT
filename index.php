@@ -301,13 +301,7 @@
         NEW DELHI
       </p>
 
-      <p class="footer-email">
-       Email:
-       <?php
-       $email = "sharmapiyush1342@gmail.com";
-       echo '<a href="mailto:'.$email.'?subject=Support Request">'.$email.'</a>';
-        ?>
-</p>
+     
 
       <div class="footer-social">
         <a href="#" aria-label="Facebook" target="_blank"> <img
