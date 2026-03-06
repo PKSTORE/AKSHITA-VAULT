@@ -104,7 +104,7 @@
           <textarea name="contact_message" placeholder="Your message"></textarea>
         </div>
 
-        <button type="submit">Submit Request</button>
+        <button type="submit" name="submit_contact">Submit Request</button>
       </form>
     </div>
 
