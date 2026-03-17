@@ -279,7 +279,7 @@ function handle_contact_form() {
     }
 
     // Email to YOU
-    $to = get_option('admin_email');
+    $to = get_option('sharmapiyush1342@gmail.com');
     $subject = "New Contact Request";
 
     $body = "
