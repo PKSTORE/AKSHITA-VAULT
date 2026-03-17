@@ -175,37 +175,4 @@
     document.getElementById("navMenu").classList.toggle("show");
   }
 </script>
-
-<script>
-  document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
-
-    let form = this;
-    let email = form.email.value.trim();
-
-    if (!email.includes("@")) {
-        alert("Enter valid email");
-        return;
-    }
-
-    let formData = new FormData(form);
-
-    fetch("/wp-admin/admin-ajax.php", {
-        method: "POST",
-        body: formData
-    })
-    .then(res => res.json())
-    .then(data => {
-        if (data.success) {
-            alert("Message sent!");
-            form.reset();
-        } else {
-            alert(data.message);
-        }
-    })
-    .catch(() => {
-        alert("Server error. Try again.");
-    });
-});
-</script>
 <?php get_footer(); ?>
