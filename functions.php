@@ -229,6 +229,8 @@ function rr_save_complaint_data()
             'post_status' => 'publish'
 
         ));
+    }
+}
 
 
 //         /* Send email notification */
