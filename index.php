@@ -91,7 +91,7 @@
       <h3>Enquire Now</h3>
       <p>Enter your contact details to schedule a repair.</p>
 
-      <form class="hero-2-form" id="enquiryForm" method="post">
+      <form class="hero-2-form" id="contactForm" method="post">
         <div class="input-box">
           <input type="text" name="client_name" placeholder="Your name" required>
         </div>
