@@ -73,25 +73,12 @@
         quality service and customer satisfaction at every step.
       </p>
 
-      <div class="hero-2-stats">
-        <div class="stat">
-          <h3>98%</h3>
-          <span>Successful repairs</span>
-        </div>
-
-        <div class="stat">
-          <h3>2k</h3>
-          <span>Excellent reviews</span>
-        </div>
-      </div>
-    </div>
-
     <!-- RIGHT FORM -->
     <div class="hero-2-right">
       <h3>Enquire Now</h3>
       <p>Enter your contact details to schedule a repair.</p>
 
-      <form class="hero-2-form" id="contactForm" method="post">
+      <form class="hero-2-form" id="enquiryForm" method="post">
         <div class="input-box">
           <input type="text" name="client_name" placeholder="Your name" required>
         </div>
