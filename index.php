@@ -292,8 +292,8 @@
 
       </p>
        <p class="footer-email">
-      <a href="mailto:info@rrcomputers.net" target="_blank" rel="noopener">
-info@rrcomputers.net
+      <a href="mailto:sales@rrcomputers.net" target="_blank" rel="noopener">
+sales@rrcomputers.net
 </a>
 </p>
      

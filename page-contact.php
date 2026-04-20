@@ -63,8 +63,14 @@
 
         <li>
           <span>📍</span>
-          G-9/85 RATIYA MARG SANGMA VIHAR <br>
-          New Delhi
+          <p>
+        198, LGF, SANT NAGAR,EAST OF KAILASH,
+         NEW DELHI, South Delhi,Delhi, 110065
+        <br>
+          Barawan,Parsadepur
+          Raebareli,Uttar Pradesh,229129
+
+      </p>
         </li>
 
         <li>
@@ -118,13 +124,19 @@
     <!-- Column 1: Address & Contact -->
     <div class="footer-col">
       <p>
-        G-9/ 85 RATIYA MARG SANGAM VIHAR <br>
-        NEW DELHI
+        <p>
+        198, LGF, SANT NAGAR,EAST OF KAILASH,
+         NEW DELHI, South Delhi,Delhi, 110065
+        <br>
+          Barawan,Parsadepur
+          Raebareli,Uttar Pradesh,229129
+
+      </p>
       </p>
 
       <p class="footer-email">
         Email:
-        <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
+        <a href="mailto:sales@rrcomputers.net">sales@rrcomputers.net</a>
       </p>
 
       <div class="footer-social">
