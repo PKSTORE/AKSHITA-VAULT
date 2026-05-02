@@ -230,10 +230,7 @@ Version: 1.0
 }
 
 /* RESPONSIVE */
-@media (max-width: 900px) {
-  .hero-2-container {
-  
-  }
+@media (max-width: 900px) {  
 
   .hero-2-left h2 {
     font-size: 34px;
