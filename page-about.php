@@ -25,7 +25,7 @@ Template Name: About Page
     <a href="<?php echo site_url('/about'); ?>">About</a>
     <a href="<?php echo site_url('/services'); ?>">Services</a>
     <a href="<?php echo site_url('/contact'); ?>">Contact</a>
-    <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+    
                 <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
             </nav>
 
@@ -51,7 +51,7 @@ Template Name: About Page
                 </p>
                 <p>
                     We offer a wide range of <a href="<?php echo site_url('/services'); ?>">Services</a> including laptop and desktop repair,
-                    computer sales and rentals,
+                    computer sales,
                     hardware upgrades, networking solutions, CCTV installation, firewall security, data recovery, and
                     refurbished systems. Our goal is to ensure smooth, secure, and efficient performance of your systems
                     with quick turnaround time and professional support.
@@ -118,7 +118,7 @@ Template Name: About Page
                     <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
                     <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
                     <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
-                    <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+                   
                 </ul>
             </div>
             <!-- Column 3: Services -->

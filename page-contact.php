@@ -21,7 +21,7 @@
       <a href="<?php echo site_url('/about'); ?>">About</a>
       <a href="<?php echo site_url('/services'); ?>">Services</a>
       <a href="<?php echo site_url('/contact'); ?>">Contact</a>
-      <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+   
       <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
     </nav>
 
@@ -50,14 +50,14 @@
       <ul class="contact-1-details">
         <li>
           <span>📞</span>
-          <a href="tel:+919899437756">+91 98994 37756</a>,
-          <a href="tel:+919354933007">+91 93549 33007</a>
+          <a href="tel:+919956838850">+91 99568 38850</a>,
+          
         </li>
 
         <li>
           <span>✉️</span>
-          <a href="mailto:info@rrcomputers.net">
-            info@rrcomputers.net
+          <a href="mailto:sales@akshitavault.com">
+            sales@akshitavault.com
           </a>
         </li>
 
@@ -66,11 +66,7 @@
           <p>
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
-        <br>
-          Barawan,Parsadepur
-          Raebareli,Uttar Pradesh,229129
-
-      </p>
+        </p>
         </li>
 
         <li>
@@ -127,16 +123,12 @@
         <p>
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
-        <br>
-          Barawan,Parsadepur
-          Raebareli,Uttar Pradesh,229129
-
-      </p>
+        </p>
       </p>
 
       <p class="footer-email">
         Email:
-        <a href="mailto:sales@rrcomputers.net">sales@rrcomputers.net</a>
+        <a href="mailto:sales@akshitavault.com">sales@akshitavault.com</a>
       </p>
 
       <div class="footer-social">
@@ -158,7 +150,7 @@
         <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
         <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
         <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
-        <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+    
       </ul>
     </div>
 

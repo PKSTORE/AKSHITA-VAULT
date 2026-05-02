@@ -22,7 +22,7 @@
       <a href="<?php echo site_url('/about'); ?>">About</a>
       <a href="<?php echo site_url('/services'); ?>">Services</a>
       <a href="<?php echo site_url('/contact'); ?>">Contact</a>
-      <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+     
       <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
     </nav>
 
@@ -44,7 +44,7 @@
     </h1>
 
     <p>
-      Akshita Vaults delivers reliable computer repair, laptop rental, networking, CCTV, and IT support services for
+      Akshita Vaults delivers reliable computer repair, networking, CCTV, and IT support services for
       homes and businesses with fast and trusted solutions.
     </p>
 
@@ -116,19 +116,6 @@
             High-quality computer spare parts and peripherals including RAM, hard drives, SSDs, keyboards, monitors,
             and
             accessories for reliable performance.
-          </p>
-        </div>
-      </a>
-      <!-- Card 2 -->
-      <a href="<?php echo site_url('/services'); ?>">
-        <div class="hero-3-card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.png"
-            alt="Laptop & Desktop Rental">
-          <h3>Laptop & Desktop Rental</h3>
-          <p>
-            Affordable laptop and desktop rental services for offices, events, training, and short- or long-term
-            business requirements.
-
           </p>
         </div>
       </a>
@@ -315,7 +302,7 @@ sales@rrcomputers.net
         <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
         <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
         <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
-        <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+      
       </ul>
     </div>
 

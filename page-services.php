@@ -21,7 +21,7 @@
     <a href="<?php echo site_url('/about'); ?>">About</a>
     <a href="<?php echo site_url('/services'); ?>">Services</a>
     <a href="<?php echo site_url('/contact'); ?>">Contact</a>
-    <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+   
         <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
       </nav>
 
@@ -39,7 +39,7 @@
         <h1>Our IT & Computer Services</h1>
         <p>
           Akshita Vault provides complete IT and computer services for homes, offices, and businesses in New Delhi. From
-          laptop and desktop repair to rentals, sales, networking, security, and data recovery, we deliver reliable and
+          laptop and desktop repair , sales, networking, security, and data recovery, we deliver reliable and
           cost-effective technology solutions with professional support.
         </p>
 
@@ -53,16 +53,6 @@
               We offer professional laptop and desktop repair services, including hardware replacement, software
               troubleshooting, system diagnostics, and performance optimization to ensure smooth and reliable operation.
             </p>
-
-          </div>
-          <div class="offer-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
-            <h2>Laptop & Desktop Rental</h2>
-            <p>
-              Our laptop and desktop rental services are ideal for offices, startups, training programs, and events. We
-              provide flexible short-term and long-term rental options with well-maintained systems.
-            </p>
-
 
           </div>
           <div class="offer-card">
@@ -162,7 +152,7 @@
                     <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
                     <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
                     <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
-                    <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+                   
                 </ul>
       </div>
 
