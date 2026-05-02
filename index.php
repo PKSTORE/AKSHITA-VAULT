@@ -274,12 +274,14 @@
        <span class="coporate-add">
                 Corporate Address
             </span>    
+            <br>
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
         <br>
         <span class="Reg-add">
             Registered Address 
         </span>
+        <br>
           Barawan,Parsadepur
           Raebareli,Uttar Pradesh,229129
       </p>

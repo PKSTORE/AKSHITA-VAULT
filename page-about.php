@@ -91,24 +91,23 @@ Template Name: About Page
             <p>
             <span class="coporate-add">
                 Corporate Address
-            </span>    
+            </span>
+            <br>    
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
         <br>
         <span class="Reg-add">
             Registered Address 
         </span>
+        <br>
           Barawan,Parsadepur
           Raebareli,Uttar Pradesh,229129
-
       </p>
                 </p>
-
                 <p class="footer-email">
                     Email:
                     <a href="mailto:sales@akshitavault.com">sales@akshitavault.com</a>
                 </p>
-
                 <div class="footer-social">
          <a href="#"  aria-label="Facebook" target = "_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt=""></a>
           <a href="https://www.instagram.com/" aria-label="Instagram" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt=""></a>
