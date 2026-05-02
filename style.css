@@ -116,7 +116,7 @@ Version: 1.0
 .hero-2-container {
   margin: auto;
   display: grid;
-  
+  text-align: center;
   gap: 60px;
   align-items: center;
 }
@@ -141,7 +141,7 @@ Version: 1.0
 .hero-2-left p {
   font-size: 16px;
   color: #555;
-  max-width: 520px;
+  
   margin-bottom: 40px;
   letter-spacing: 1px;
   line-height: 1.7;
