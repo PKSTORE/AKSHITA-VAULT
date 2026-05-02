@@ -271,17 +271,22 @@
     <!-- Column 1: Address & Contact -->
     <div class="footer-col">
       <p>
+       <span class="coporate-add">
+                Corporate Address
+            </span>    
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
         <br>
+        <span class="Reg-add">
+            Registered Address 
+        </span>
           Barawan,Parsadepur
           Raebareli,Uttar Pradesh,229129
-
       </p>
        <p class="footer-email">
-      <a href="mailto:sales@rrcomputers.net" target="_blank" rel="noopener">
-sales@rrcomputers.net
-</a>
+    <a href="mailto:sales@akshitavault.com">
+            sales@akshitavault.com
+          </a>
 </p>
      
 

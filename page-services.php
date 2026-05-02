@@ -125,16 +125,16 @@
          <p>
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
-        <br>
-          Barawan,Parsadepur
-          Raebareli,Uttar Pradesh,229129
+      
 
       </p>
         </p>
 
         <p class="footer-email">
           Email:
-          <a href="mailto:sales@rrcomputers.net">sales@rrcomputers.net</a>
+          <a href="mailto:sales@akshitavault.com">
+            sales@akshitavault.com
+          </a>        
         </p>
 
         <div class="footer-social">

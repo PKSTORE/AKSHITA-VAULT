@@ -88,10 +88,16 @@ Template Name: About Page
             <!-- Column 1: Address & Contact -->
             <div class="footer-col">
                 <p>
-                    <p>
+            <p>
+            <span class="coporate-add">
+                Corporate Address
+            </span>    
         198, LGF, SANT NAGAR,EAST OF KAILASH,
          NEW DELHI, South Delhi,Delhi, 110065
         <br>
+        <span class="Reg-add">
+            Registered Address 
+        </span>
           Barawan,Parsadepur
           Raebareli,Uttar Pradesh,229129
 
@@ -100,7 +106,7 @@ Template Name: About Page
 
                 <p class="footer-email">
                     Email:
-                    <a href="mailto:sales@rrcomputers.net">sales@rrcomputers.net</a>
+                    <a href="mailto:sales@akshitavault.com">sales@akshitavault.com</a>
                 </p>
 
                 <div class="footer-social">
