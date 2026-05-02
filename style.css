@@ -227,7 +227,7 @@ Version: 1.0
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .hero-2-container {
-    grid-template-columns: 1fr;
+  
   }
 
   .hero-2-left h2 {
